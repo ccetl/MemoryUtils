@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+base {
+    group = 'de.ccetl'
+    version = '0.0.1'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(libs.commons.exec)
+    implementation(libs.jna)
+    implementation(libs.jna.platform)
+}

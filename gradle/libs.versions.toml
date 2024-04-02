@@ -1,0 +1,11 @@
+[versions]
+commonsExecVer = "1.4.0"
+jnaVer = "5.14.0"
+
+[libraries]
+# https://mvnrepository.com/artifact/org.apache.commons
+commons-exec = { module = "org.apache.commons:commons-exec", version.ref = "commonsExecVer" }
+
+# https://mvnrepository.com/artifact/net.java.dev.jna
+jna = { module = "net.java.dev.jna:jna", version.ref = "jnaVer" }
+jna-platform = { module = "net.java.dev.jna:jna-platform", version.ref = "jnaVer" }
