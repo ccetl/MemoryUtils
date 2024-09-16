@@ -1,6 +1,6 @@
 [versions]
 commonsExecVer = "1.4.0"
-jnaVer = "5.14.0"
+jnaVer = "5.15.0"
 
 [libraries]
 # https://mvnrepository.com/artifact/org.apache.commons
